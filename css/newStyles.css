@@ -1,7 +1,11 @@
 body{
+    color: #40513E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+}
+p{
+    line-height: 2;
 }
 h1{
     margin: 50px auto 0 auto;
@@ -13,17 +17,22 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #66bfbf;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: #11999e;
 }
 .top-container{
     background-color: #e4f9f5;   
     padding-top: 100px;
     position: relative;
+
 }
 
 .middle-container{
+    margin: 100px 0;
 }
 .bottom-container{
 }
@@ -36,4 +45,23 @@ h3{
     position: absolute;
     left: 600px;
     bottom: 300px;
+}
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 40%;
+    text-align: left;
+}
+.code-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.car-image{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.intro{
+    width: 30%;
+    margin: 0 auto 0 auto;  
 }
