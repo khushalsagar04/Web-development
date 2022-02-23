@@ -4,8 +4,23 @@ body{
     text-align: center;
     font-family: 'Merriweather', serif;
 }
+a{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
 p{
     line-height: 2;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: 0;
+    width: 4%;
+    margin: 100px auto;
 }
 h1{
     margin: 50px auto 0 auto;
@@ -24,17 +39,28 @@ h3{
     font-family: 'Montserrat', sans-serif;
     color: #11999e;
 }
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
 .top-container{
     background-color: #e4f9f5;   
     padding-top: 100px;
     position: relative;
 
 }
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
 
 .middle-container{
     margin: 100px 0;
 }
 .bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
 }
 .top-cloud{
     position: absolute;
