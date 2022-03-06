@@ -8,16 +8,7 @@
 .download-button{
     margin: 5% 3% 5% 0;
 }
-.feature-description{
-    color: #8f8f8f;
-}
-.feature-icon{
-    color: #ef8172;
-}
-.feature-text{
-    font-family: "Montserrat-bold";
-    font-size: 1.5rem;
-}
+
 .navbar{
     padding-bottom: 4.5rem;
 }
@@ -44,4 +35,30 @@ h1{
     font-family: "Montserrat-black";
     font-size: 3.5rem;
     line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat-Bold";
+}
+p{
+    color: #8f8f8f;
+}
+
+/* Features Section */
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.feature-text{
+    font-family: "Montserrat-bold";
+    font-size: 1.5rem;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;   
 }
