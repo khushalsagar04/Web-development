@@ -1,3 +1,6 @@
+
+/* Title Section */
+
 #title{
     background-color: #ff4c68;
     color: #fff;
@@ -27,7 +30,12 @@
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: relative;
+    left: 10%;
 }
+
+/* HTML Elements */
+
 body{
     font-family: Montserrat;
 }
@@ -48,8 +56,11 @@ p{
     color: #8f8f8f;
 }
 
+
 /* Features Section */
+
 #features{
+    background-color: #fff;
     padding: 7% 15%;
 }
 .feature-box{
@@ -99,9 +110,50 @@ p{
 
 /*Pricing Section*/
  #pricing {
-     padding: 100px;
-     text-align: center;
+    padding: 100px;
+    text-align: center;
  }
  .pricing-column {
-     padding: 3% 2%;
+    padding: 3% 2%;
+ }
+
+
+ /* Call to Action Section */
+ 
+ #cta{
+     background-color: #ff4c68;
+     color: #fff;
+     text-align: center;
+     padding: 7% 15%;
+ }
+ .cta-heading{
+     font-family: "Montserrat-Black";
+     font-size: 3.5rem;
+     line-height: 1.5;
+ }
+
+ /*Footer Section*/
+ #footer{
+     text-align: center;
+     background-color: #fff;
+     padding: 7% 15%;
+ }
+ .footer-icon{
+    margin: 20px 10px;
+ }
+
+ /* Media Queries */
+ @media (max-width: 992px) {
+    
+    #title{
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+
+
  }
